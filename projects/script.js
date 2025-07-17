@@ -57,9 +57,9 @@ function showProjects(projects) {
     projectsContainer.innerHTML = projectsHTML;
 }
 
-getProjects().then(data => {
-    showProjects(data);
-});
+//getProjects().then(data => {
+  //  showProjects(data);
+//});
 // fetch projects end
 
 // Start of Tawk.to Live Chat
