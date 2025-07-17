@@ -11,8 +11,9 @@
     <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
     <title>Portfolio | Pranav H Ravi</title>
 </head>
-<body>
+<body oncontextmenu="return false">
 <header>
+    <a href="#" class="logo"><i class="fab fa-node-js"></i> Pranav</a>
     <div id="menu" class="fas fa-bars"></div>
     <nav class="navbar">
         <ul>
@@ -37,19 +38,21 @@
 </section>
 <section class="skills" id="skills">
   <h2>Skills & Abilities</h2>
-  <ul>
-    <li>Python</li>
-    <li>Data Analytics</li>
-    <li>Machine Learning</li>
-    <li>HTML, CSS, JavaScript</li>
-  </ul>
+  <div class="container">
+    <div class="row" id="skillsContainer">
+      <div class="bar"><div class="info"><span>Python</span></div></div>
+      <div class="bar"><div class="info"><span>Data Analytics</span></div></div>
+      <div class="bar"><div class="info"><span>Machine Learning</span></div></div>
+      <div class="bar"><div class="info"><span>HTML, CSS, JavaScript</span></div></div>
+    </div>
+  </div>
 </section>
 <section class="education" id="education">
   <h2>My Education</h2>
-  <ul>
-    <li>Bachelor of Engineering in Computer Science, Malnad College of Engineering (2021-2025)</li>
-    <li>Science | PCMB, HKS PU College (2019-2021)</li>
-  </ul>
+  <div class="box-container">
+    <div class="box"><div class="content"><h3>Bachelor of Engineering in Computer Science</h3><p>Malnad College of Engineering (2021-2025)</p></div></div>
+    <div class="box"><div class="content"><h3>Science | PCMB</h3><p>HKS PU College (2019-2021)</p></div></div>
+  </div>
 </section>
 <section class="work" id="work">
   <h2>Projects Made</h2>
@@ -57,53 +60,37 @@
     <div class="box tilt">
       <img src="./assets/images/projects/canteen.jpg" alt="Online Canteen Management System" />
       <div class="content">
-        <div class="tag">
-          <h3>Online Canteen Management System</h3>
-        </div>
-        <div class="desc">
-          <p>Web-based system for ordering, tracking, and managing canteen operations. Integrated ML model for order prediction with 95% accuracy.</p>
-          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, MySQL, Python</p>
-        </div>
+        <div class="tag"><h3>Online Canteen Management System</h3></div>
+        <div class="desc"><p>Web-based system for ordering, tracking, and managing canteen operations. Integrated ML model for order prediction with 95% accuracy.</p><p><strong>Technologies:</strong> HTML, CSS, JavaScript, MySQL, Python</p></div>
       </div>
     </div>
     <div class="box tilt">
       <img src="./assets/images/projects/money.jpg" alt="Money Manager" />
       <div class="content">
-        <div class="tag">
-          <h3>Money Manager</h3>
-        </div>
-        <div class="desc">
-          <p>A personal finance tracking tool with income/expense management, visual budget reports, and analytics dashboards.</p>
-          <p><strong>Technologies:</strong> JavaScript, HTML, CSS, Chart.js</p>
-        </div>
+        <div class="tag"><h3>Money Manager</h3></div>
+        <div class="desc"><p>A personal finance tracking tool with income/expense management, visual budget reports, and analytics dashboards.</p><p><strong>Technologies:</strong> JavaScript, HTML, CSS, Chart.js</p></div>
       </div>
     </div>
     <div class="box tilt">
       <img src="./assets/images/projects/crop.jpg" alt="AI-Enhanced Smart Irrigation System" />
       <div class="content">
-        <div class="tag">
-          <h3>AI-Enhanced Smart Irrigation System</h3>
-        </div>
-        <div class="desc">
-          <p>AI-driven system optimizing irrigation based on real-time soil moisture and weather data. Ensures sustainable water use with over 90% precision.</p>
-          <p><strong>Technologies:</strong> Python, IoT Sensors, Machine Learning, Weather APIs</p>
-        </div>
+        <div class="tag"><h3>AI-Enhanced Smart Irrigation System</h3></div>
+        <div class="desc"><p>AI-driven system optimizing irrigation based on real-time soil moisture and weather data. Ensures sustainable water use with over 90% precision.</p><p><strong>Technologies:</strong> Python, IoT Sensors, Machine Learning, Weather APIs</p></div>
       </div>
     </div>
   </div>
 </section>
 <section class="experience" id="experience">
   <h2>Experience</h2>
-  <ul>
-    <li>Dyashin Technosoft - Data Analytics (Feb 2025 – May 2025)</li>
-    <li>Inventeron Technologies - Innovation and Entrepreneurship | Internship (Oct 2023 – Nov 2023)</li>
-    <li>JV Global Service - Web Development Intern | Internship (Oct 2022 – Nov 2022)</li>
-  </ul>
+  <div class="timeline">
+    <div class="container right"><div class="content"><div class="tag"><h2>Dyashin Technosoft</h2></div><div class="desc"><h3>Data Analytics</h3><p>Feb 2025 – May 2025</p></div></div></div>
+    <div class="container left"><div class="content"><div class="tag"><h2>Inventeron Technologies</h2></div><div class="desc"><h3>Innovation and Entrepreneurship | Internship</h3><p>Oct 2023 – Nov 2023</p></div></div></div>
+    <div class="container right"><div class="content"><div class="tag"><h2>JV Global Service</h2></div><div class="desc"><h3>Web Development Intern | Internship</h3><p>Oct 2022 – Nov 2022</p></div></div></div>
+  </div>
 </section>
 <section class="contact" id="contact">
   <h2>Get in Touch</h2>
-  <p>Email: pranavhravi@gmail.com</p>
-  <p>Phone: +917975586460</p>
+  <div class="container"><div class="content"><p>Email: pranavhravi@gmail.com</p><p>Phone: +917975586460</p></div></div>
 </section>
 </main>
 <script src="./assets/js/script.js"></script>
