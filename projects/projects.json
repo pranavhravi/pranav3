@@ -1,0 +1,23 @@
+[
+  
+  {
+    "name": "Online Canteen Management System",
+    "desc": "Web-based platform for ordering, tracking, and managing canteen services. Integrated ML model for predicting demand with 95% accuracy.",
+    "image": "canteen",
+    "category": "webapp"
+  },
+  {
+    "name": "Money Manager",
+    "desc": "A personal finance tracking tool with income/expense management, budget insights, and visual dashboards.",
+    "image": "money",
+    "category": "webapp"
+    
+  },
+  {
+    "name": "AI-Enhanced Smart Irrigation System",
+    "desc": "An IoT and ML-based irrigation system using real-time sensor and weather data for optimal water usage.",
+    "image": "crop",
+    "category": "iot"
+  }
+]
+
